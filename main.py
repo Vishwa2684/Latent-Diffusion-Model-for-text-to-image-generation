@@ -2,6 +2,8 @@ import requests
 import zipfile
 import os
 
+# Create coco directory in your repo before running this code
+
 def download_and_extract_zip(url, output_directory):
     """
     Downloads a ZIP file from a URL, extracts its contents, and saves them to an output directory.
@@ -43,8 +45,9 @@ def download_and_extract_zip(url, output_directory):
             os.remove(zip_filename)
             print("Temporary file cleaned up.")
 
-# Example usage
+# Example usage (This code is to download images of train2014 because it is too big)
 url = "http://images.cocodataset.org/zips/train2014.zip"
 output_directory = "/teamspace/studios/this_studio/coco"  # Replace with your desired output directory
 
+# annotations ni download chesko (from http://images.cocodataset.org/annotations/annotations_trainval2014.zip)
 download_and_extract_zip(url, output_directory)
