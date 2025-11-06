@@ -6,7 +6,7 @@ This repository contains an implementation of the Latent Diffusion Model based o
 
 - [To download COCO 2014 images click here](http://images.cocodataset.org/zips/train2014.zip)
 - [To download COCO 2014 train/val annotations click here](http://images.cocodataset.org/annotations/annotations_trainval2014.zip)
-- [To download model weights click here](https://mega.nz/file/Y0wTxJBA#Y38NS9eX54D8s_kJz0wU485DtJlqUWeSi5pluoju4Ug)
+- [To download model weights click here](https://mega.nz/file/Y0wTxJBA#Y38NS9eX54D8s_kJz0wU485DtJlqUWeSi5pluoju4Ug) # link is outdated (contains weights of model which generates 64*64 images)
 
 ## Model Architecture
 
